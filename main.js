@@ -96,7 +96,7 @@ function checarVencedor(){
 
 function mudarVencedor(quadrado){
     vencedorDaVez = quadrado.innerHTML;
-    vencedorSelecionado.innerHTML = vencedorDaVez;
+    vencedorSelecionado.innerHTML = "Vencedor: " + vencedorDaVez;
 } 
 
 function mudaCorQuadrado(quadrado1, quadrado2, quadrado3){
